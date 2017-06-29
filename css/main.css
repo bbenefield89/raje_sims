@@ -1,0 +1,83 @@
+body {
+  font-size: 16x;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 1em 10em 1em 10em;
+}
+
+.fa-bars {
+  float: left;
+  display: none;
+}
+
+.nav-start {
+  float: left;
+  padding-top: .5em;
+}
+
+.nav-end {
+  float: right;
+  padding-top: .5em;
+}
+
+.nav-btn {
+  background-color: white;
+  transform: scale(1.2);
+  margin-right: 1em;
+  max-width: 40%;
+}
+
+.nav-btn:hover {
+  animation-name: hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hover {
+  100% {
+    background-color: #FAEBD7;
+  }
+}
+
+.img-placeholder {
+  width: 98vw;
+  height: 98vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.img-logo {
+  display: inline;
+  margin: 0em 10em 0em 16em;
+}
+
+@media only screen and (max-width: 722px) {
+  nav {
+    padding: 1em 0em 1em 1em;
+  }
+  
+  .fa-bars {
+    width: 100vw;
+    display: inline;
+  }
+  
+  .nav-btn {
+    display: none;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+  .nav-btn {
+    font-size: .593em;
+  }
+}
