@@ -64,7 +64,20 @@ main {
 
 #second-section {
   width: 94vw;
+  height: 100vh;
   padding: 1em;
+  background-color: #1e90ff;
+}
+
+#third-section {
+  width: 94vw;
+  height: 100vh;
+  background-color: #636C72;
+}
+
+#fourth-section {
+  width: 94vw;
+  height: 100vh;
   background-color: #1e90ff;
 }
 
