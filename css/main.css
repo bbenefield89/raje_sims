@@ -63,8 +63,9 @@ main {
 }
 
 #second-section {
-  width: 100vw;
-  background-color: blue;
+  width: 94vw;
+  padding: 1em;
+  background-color: #1e90ff;
 }
 
 @media only screen and (max-width: 722px) {
