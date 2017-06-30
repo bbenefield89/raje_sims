@@ -9,6 +9,7 @@ nav {
   width: 100%;
   background-color: white;
   padding: 1em 10em 1em 10em;
+  z-index: 99;
 }
 
 .fa-bars {
@@ -18,7 +19,7 @@ nav {
 
 #logo {
   width: 1.5em;
-  margin-left: -3.5em;
+  margin-left: -3.26em;
   text-decoration: underline;
 }
 
@@ -64,21 +65,26 @@ main {
 
 #second-section {
   width: 94vw;
-  height: 100vh;
-  padding: 1em;
+  padding: 4em;
   background-color: #1e90ff;
+  color: white;
+  font-size: 1.5em;
 }
 
 #third-section {
   width: 94vw;
-  height: 100vh;
+  padding: 4em;
   background-color: #636C72;
+  color: white;
+  font-size: 1.5em;
 }
 
 #fourth-section {
   width: 94vw;
-  height: 100vh;
+  padding: 4em;
   background-color: #1e90ff;
+  color: white;
+  font-size: 1.5em;
 }
 
 @media only screen and (max-width: 722px) {
@@ -110,6 +116,30 @@ main {
   .nav-btn {
     display: none;
     margin-top: 1em;
+  }
+
+    #second-section {
+    width: 94vw;
+    padding: .5em;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 1em;
+  }
+
+  #third-section {
+    width: 94vw;
+    padding: .5em;
+    background-color: #636C72;
+    color: white;
+    font-size: 1em;
+  }
+
+  #fourth-section {
+    width: 94vw;
+    padding: .5em;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 1em;
   }
 }
 
