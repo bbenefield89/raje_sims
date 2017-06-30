@@ -16,6 +16,12 @@ nav {
   display: none;
 }
 
+#logo {
+  width: 1.5em;
+  margin-left: -3.5em;
+  text-decoration: underline;
+}
+
 .nav-start {
   float: left;
   padding-top: .5em;
@@ -45,19 +51,19 @@ nav {
   }
 }
 
-.img-placeholder {
-  width: 98vw;
-  height: 98vh;
-}
-
 main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.img-logo {
-  display: inline;
-  margin: 0em 10em 0em 16em;
+.img-placeholder {
+  width: 98vw;
+  height: 98vh;
+  display: block;
+}
+
+#second-section {
 }
 
 @media only screen and (max-width: 722px) {
@@ -66,8 +72,22 @@ main {
   }
   
   .fa-bars {
-    width: 100vw;
+    width: 74vw;
     display: inline;
+  }
+
+  #logo {
+    float: right;
+    padding-right: .5em;
+  }
+
+  .nav-start {
+    padding-top: 0em;
+  }
+
+  .nav-end {
+    padding-top: 0em;
+    float: right;
   }
   
   .nav-btn {
