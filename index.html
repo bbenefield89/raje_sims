@@ -14,7 +14,9 @@
   </head>
   <body>
     
-    <!-- Nav bar displayed at 769px and larger -->
+    <!-- Navigation -->
+
+    <!-- Navbar displayed at 769px and larger -->
     <nav id="desktop-nav">
       <i class="fa fa-bars fa-3x text-muted" ariahidden="true"></i>
       <h1 class="text-muted" id="logo">RS</h1>
@@ -30,42 +32,49 @@
       </div>
     </nav>
     
-    <!-- Mobile responsive Narvbar dislayed only at 768px and lower -->
+    <!-- Mobile responsive Navbar displayed only at 768px and lower -->
     <nav class="navbar navbar-toggleable-md navbar-light fixed-top" id="mobile-nav">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <h1 class="text-muted" id="logo">RS</h1>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 class="text-muted" id="logo">RS</h1>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#main">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#main">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <!-- Body -->
+    
+    <!-- Home/Main Section -->
     <main>
       <a name="main"></a>
       <section id="first-section">
       <img class="img-placeholder" src="https://static.pexels.com/photos/28855/pexels-photo-28855.jpg">
       </section>
 
+
+      <!-- About Section -->
       <section class="text-center" id="second-section">
         <a name="about"></a>
         <p>Lorem ipsum dolor sit amet, id viderer signiferumque eum. Id natum assum periculis eos, per meliore deleniti in. Debet legendos intellegebat pri ut. Verterem nominati facilisis cu quo, labore interesset intellegebat ut duo. Cibo alienum definiebas an has, invenire percipitur sea et. Ei usu etiam aliquip officiis, cum an recteque conclusionemque. Dicant accusata pro ad, quo nonumes mediocrem accommodare ad, vim at suscipiantur delicatissimi. Sea at offendit disputando. Cu mea iuvaret sadipscing, an sea veritus expetendis scriptorem, cum tale porro recusabo ea. At copiosae interpretaris mediocritatem quo, quo adhuc luptatum delicatissimi ne, diceret scripserit vel cu. At iisque quaeque eum, vero nulla eleifend id qui, esse philosophia vim te. Dicat munere doctus ea has, solum animal ocurreret id nam, mei legere constituto intellegebat te. Quo dolorem detracto volutpat ad, an eum quem impetus laoreet. Labore iuvaret definiebas in his, ea vocent quaerendum</p>
       </section>
 
+
+      <!-- Portfolio Section -->
       <section class="text-center" id="third-section">
         <a name="portfolio"></a>
         <h2>Portfolio</h2>
@@ -75,13 +84,25 @@
         <a href="https://www.youtube.com/watch?v=L1TAySxzoJo"><img class="img-responsive portfolio-images last-image" src="images/sister_network_hq.jpeg"></a>
       </section>
 
+
+      <!-- Contact Section -->
       <section class="text-center" id="fourth-section">
         <a name="contact"></a>
         <p>Lorem ipsum dolor sit amet, id viderer signiferumque eum. Id natum assum periculis eos, per meliore deleniti in. Debet legendos intellegebat pri ut. Verterem nominati facilisis cu quo, labore interesset intellegebat ut duo. Cibo alienum definiebas an has, invenire percipitur sea et. Ei usu etiam aliquip officiis, cum an recteque conclusionemque. Dicant accusata pro ad, quo nonumes mediocrem accommodare ad, vim at suscipiantur delicatissimi. Sea at offendit disputando. Cu mea iuvaret sadipscing, an sea veritus expetendis scriptorem, cum tale porro recusabo ea. At copiosae interpretaris mediocritatem quo, quo adhuc luptatum delicatissimi ne, diceret scripserit vel cu. At iisque quaeque eum, vero nulla eleifend id qui, esse philosophia vim te. Dicat munere doctus ea has, solum animal ocurreret id nam, mei legere constituto intellegebat te. Quo dolorem detracto volutpat ad, an eum quem impetus laoreet. Labore iuvaret definiebas in his, ea vocent quaerendum</p>
       </section>
     </main>
 
-    <footer>
+
+    <!-- Footer Section -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+        <!-- Need to add social media buttons and links -->
+          <i class="fa fa-youtube-play fa-2x social-media" id="youtube" aria-hidden="true"></i>
+          <i class="fa fa-linkedin fa-2x social-media" id="linkedin" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-2x social-media" id="twitter" aria-hidden="true"></i>
+        </div>
+      </div>
     </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
