@@ -12,14 +12,17 @@ nav {
   z-index: 99;
 }
 
+#mobile-nav {
+  display: none;
+}
+
 .fa-bars {
   float: left;
   display: none;
 }
 
 #logo {
-  width: 1.5em;
-  margin-left: -3.26em;
+  margin-left: -13%;
   text-decoration: underline;
 }
 
@@ -88,6 +91,10 @@ main {
   width: 35%;
 }
 
+.last-image {
+  margin-bottom: 1em;
+}
+
 #fourth-section {
   width: 94vw;
   padding: 4em;
@@ -100,6 +107,14 @@ main {
   nav {
     padding: 1em 0em 1em 1em;
   }
+
+  #desktop-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+  }
   
   .fa-bars {
     width: 74vw;
@@ -107,7 +122,7 @@ main {
   }
 
   #logo {
-    float: right;
+    margin-left: 0%;
     padding-right: .5em;
   }
 
@@ -118,7 +133,6 @@ main {
 
   .nav-end {
     padding-top: 0em;
-    float: right;
     width: 40%;
   }
   
