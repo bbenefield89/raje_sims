@@ -45,6 +45,10 @@ nav {
   animation-fill-mode: forwards;
 }
 
+iframe {
+  width: 84vw;
+}
+
 @keyframes hover {
   100% {
     background-color: #FAEBD7;
@@ -66,8 +70,8 @@ main {
 #second-section {
   width: 94vw;
   padding: 4em;
-  background-color: #1e90ff;
-  color: white;
+  background-color: #EEE9E0;
+  color: #636C72;
   font-size: 1.5em;
 }
 
@@ -75,19 +79,24 @@ main {
   width: 94vw;
   padding: 4em;
   background-color: #636C72;
-  color: white;
+  color: #EEE9E0;
   font-size: 1.5em;
+}
+
+.portfolio-images {
+  margin-top: 1em;
+  width: 35%;
 }
 
 #fourth-section {
   width: 94vw;
   padding: 4em;
-  background-color: #1e90ff;
-  color: white;
+  background-color: #EEE9E0;
+  color: #636C72;
   font-size: 1.5em;
 }
 
-@media only screen and (max-width: 722px) {
+@media only screen and (max-width: 768px) {
   nav {
     padding: 1em 0em 1em 1em;
   }
@@ -118,28 +127,39 @@ main {
     margin-top: 1em;
   }
 
+  section {
+    font-weight: bold;
+  }
+
     #second-section {
     width: 94vw;
     padding: .5em;
-    background-color: #1e90ff;
-    color: white;
     font-size: 1em;
   }
 
   #third-section {
     width: 94vw;
     padding: .5em;
-    background-color: #636C72;
-    color: white;
     font-size: 1em;
   }
 
   #fourth-section {
     width: 94vw;
     padding: .5em;
-    background-color: #1e90ff;
-    color: white;
     font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  .nav-btn {
+    font-size: .593em;
+    margin-right: -1.329em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .portfolio-images {
+    width: 80%;
   }
 }
 
