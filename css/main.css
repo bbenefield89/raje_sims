@@ -22,6 +22,7 @@ nav {
 }
 
 #logo {
+  float: left;
   margin-left: -13%;
   text-decoration: underline;
 }
@@ -103,6 +104,27 @@ main {
   font-size: 1.5em;
 }
 
+.social-media {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.social-media:hover {
+  transform: scale(1.1);
+}
+
+#youtube {
+  color: #DA2625;
+}
+
+#linkedin {
+  color: #225982;
+}
+
+#twitter {
+  color: #1DA1F2;
+}
+
 @media only screen and (max-width: 768px) {
   nav {
     padding: 1em 0em 1em 1em;
@@ -124,6 +146,7 @@ main {
   #logo {
     margin-left: 0%;
     padding-right: .5em;
+    float: none;
   }
 
   .nav-start {
