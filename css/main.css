@@ -66,9 +66,8 @@ main {
 }
 
 .img-placeholder {
-  margin-top: .9em;
-  width: 94vw;
-  height: 98vh;
+  width: 100%;
+  margin-top: 12.5%;
 }
 
 #second-section {
