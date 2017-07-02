@@ -49,10 +49,6 @@ nav {
   animation-fill-mode: forwards;
 }
 
-iframe {
-  width: 84vw;
-}
-
 @keyframes hover {
   100% {
     background-color: #FAEBD7;
@@ -67,7 +63,7 @@ main {
 
 .img-placeholder {
   width: 100%;
-  margin-top: 12.5%;
+  margin-top: 5.1em;
 }
 
 #second-section {
@@ -173,6 +169,10 @@ main {
     margin-top: 1em;
   }
 
+  .img-placeholder {
+    margin-top: 5em;
+  }
+
   section {
     font-weight: bold;
   }
@@ -206,6 +206,10 @@ main {
   .nav-btn {
     font-size: .593em;
     margin-right: -1.329em;
+  }
+
+  .img-placeholder {
+    margin-top: 5em;
   }
 }
 
