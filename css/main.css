@@ -81,10 +81,20 @@ main {
 
 #third-section {
   width: 94vw;
-  padding: 4em;
+  padding: 4em 0em;
   background-color: #636C72;
   color: #EEE9E0;
   font-size: 1.5em;
+}
+
+.ele {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.ele:hover {
+  transform: scale(1.01);
 }
 
 .portfolio-images {
