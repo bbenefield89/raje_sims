@@ -130,6 +130,12 @@ main {
   color: #1DA1F2;
 }
 
+.copy {
+    margin-top: 1em;
+    font-size: .8em;
+    line-height: 0;
+  }
+
 @media only screen and (max-width: 768px) {
   nav {
     padding: 1em 0em 1em 1em;
@@ -193,12 +199,6 @@ main {
     width: 94vw;
     padding: .5em;
     font-size: 1em;
-  }
-
-  .copy {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
   }
 }
 
