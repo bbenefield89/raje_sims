@@ -75,6 +75,10 @@ main {
   font-size: 1.5em;
 }
 
+h2 {
+  font-size: 2em;
+}
+
 #third-section {
   width: 94vw;
   padding: 2em 0em;
@@ -115,9 +119,16 @@ main {
   font-size: 1.5em;
 }
 
+.contact {
+  font-size: .8em;
+}
+
+.email {
+  color: red;
+}
+
 .social-media {
-  margin-top: 5%;
-  margin-right: 5%;
+  margin-right: 1%;
 }
 
 .social-media:hover {
