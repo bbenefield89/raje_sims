@@ -69,7 +69,7 @@ main {
 
 #second-section {
   width: 94vw;
-  padding: 4em;
+  padding: 6em;
   background-color: #EEE9E0;
   color: #636C72;
   font-size: 1.5em;
@@ -101,6 +101,10 @@ main {
 .portfolio-image-last {
   width: 100%;
   margin-bottom: 0em;
+}
+
+.portfolio-image-last:hover {
+  transform: scale(1.01);
 }
 
 #fourth-section {
