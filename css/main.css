@@ -97,11 +97,6 @@ h2 {
   transform: scale(1.01);
 }
 
-.portfolio-images {
-  margin-top: 1em;
-  width: 35%;
-}
-
 .portfolio-image-last {
   width: 100%;
   margin-bottom: 0em;
@@ -109,14 +104,6 @@ h2 {
 
 .portfolio-image-last:hover {
   transform: scale(1.01);
-}
-
-#fourth-section {
-  width: 94vw;
-  padding: 4em;
-  background-color: #EEE9E0;
-  color: #636C72;
-  font-size: 1.5em;
 }
 
 .contact {
@@ -149,8 +136,7 @@ h2 {
 
 .copy {
     margin-top: 1em;
-    font-size: .8em;
-    line-height: 0;
+    font-size: 1em;
   }
 
 @media only screen and (max-width: 768px) {
