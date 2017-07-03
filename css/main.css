@@ -76,7 +76,7 @@ main {
 
 #third-section {
   width: 94vw;
-  padding: 4em 0em;
+  padding: 2em 0em;
   background-color: #636C72;
   color: #EEE9E0;
   font-size: 1.5em;
@@ -97,8 +97,9 @@ main {
   width: 35%;
 }
 
-.last-image {
-  margin-bottom: 1em;
+.portfolio-image-last {
+  width: 100%;
+  margin-bottom: 0em;
 }
 
 #fourth-section {
