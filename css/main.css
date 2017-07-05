@@ -69,14 +69,14 @@ main {
 
 #second-section {
   width: 94vw;
-  padding: 6em;
+  padding: 2em 6em;
   background-color: #EEE9E0;
   color: #636C72;
   font-size: 1.5em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #third-section {
