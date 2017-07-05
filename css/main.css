@@ -69,9 +69,9 @@ main {
 
 #second-section {
   width: 94vw;
-  padding: 2em 6em;
+  padding: 2em 8em;
   background-color: #EEE9E0;
-  color: #636C72;
+  color: #474c51;
   font-size: 1.5em;
 }
 
@@ -84,7 +84,7 @@ h2 {
   width: 94vw;
   padding: 2em 0em;
   background-color: #636C72;
-  color: #EEE9E0;
+  color: white;
   font-size: 1.5em;
 }
 
