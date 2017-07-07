@@ -206,6 +206,13 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 642px) {
+  iframe {
+    width: 75%;
+    height: 75%;
+  }
+}
+
 @media only screen and (max-width: 572px) {
   .nav-btn {
     font-size: .593em;
